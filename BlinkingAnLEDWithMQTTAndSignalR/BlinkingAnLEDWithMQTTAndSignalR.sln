@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AyazDuru.IoT.Console", "AyazDuru.IoT.Console\AyazDuru.IoT.Console.csproj", "{EBF5F5B2-ECE8-4642-AFEB-487BA7372B96}"
+EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "AyazDuru.IoT.ESP32", "AyazDuru.IoT.ESP32\AyazDuru.IoT.ESP32.nfproj", "{8EF89281-7C82-47E7-8085-DC1B98BF2651}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AyazDuru.IoT.MAUI", "AyazDuru.IoT.MAUI\AyazDuru.IoT.MAUI.csproj", "{2FBE769D-FCAF-4F81-A72D-05359201B7DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AyazDuru.IoT.Web", "AyazDuru.IoT.Web\AyazDuru.IoT.Web.csproj", "{A35D31F4-9EA7-4E78-AF01-D4EC17CA5D9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBF5F5B2-ECE8-4642-AFEB-487BA7372B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF5F5B2-ECE8-4642-AFEB-487BA7372B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF5F5B2-ECE8-4642-AFEB-487BA7372B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF5F5B2-ECE8-4642-AFEB-487BA7372B96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EF89281-7C82-47E7-8085-DC1B98BF2651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF89281-7C82-47E7-8085-DC1B98BF2651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF89281-7C82-47E7-8085-DC1B98BF2651}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8EF89281-7C82-47E7-8085-DC1B98BF2651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF89281-7C82-47E7-8085-DC1B98BF2651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EF89281-7C82-47E7-8085-DC1B98BF2651}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2FBE769D-FCAF-4F81-A72D-05359201B7DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FBE769D-FCAF-4F81-A72D-05359201B7DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FBE769D-FCAF-4F81-A72D-05359201B7DD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2FBE769D-FCAF-4F81-A72D-05359201B7DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FBE769D-FCAF-4F81-A72D-05359201B7DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FBE769D-FCAF-4F81-A72D-05359201B7DD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A35D31F4-9EA7-4E78-AF01-D4EC17CA5D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35D31F4-9EA7-4E78-AF01-D4EC17CA5D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35D31F4-9EA7-4E78-AF01-D4EC17CA5D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35D31F4-9EA7-4E78-AF01-D4EC17CA5D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D834564-21FF-4C67-960C-C0F1EA9E8CA9}
+	EndGlobalSection
+EndGlobal

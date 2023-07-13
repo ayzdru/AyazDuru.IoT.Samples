@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:AyazDuru.IoT.MAUI.Models"
+             x:Class="AyazDuru.IoT.MAUI.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Bir led'i yakan. Dünya'yı yakar!"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="İnsanlık için küçük bizim için büyük bir adım!! Dünya'yı YAK!!!🔥 :D"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="18"
+                HorizontalOptions="Center" />        
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Yükleniyor.."
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+
+            <ListView ItemsSource="{Binding ESP32Logs }" x:Name="Log" BackgroundColor="Transparent" RowHeight="50" SeparatorVisibility="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:ESP32Log">
+                        <TextCell Text="{Binding LogMessage}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
